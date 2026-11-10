@@ -1,0 +1,15 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/cameras/6
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "name": "Fujifilm X-T5 Pro",
+        "kind": "Mirrorless",
+        "brand": "Fujifilm",
+        "daily_rate": 3500,
+        "status": "Available"
+    }
+order: 4000

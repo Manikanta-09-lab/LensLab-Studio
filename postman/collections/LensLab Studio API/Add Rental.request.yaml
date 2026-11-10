@@ -1,0 +1,15 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/rentals
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "photographer_id": 2,
+        "camera_id": 4,
+        "start_date": "2026-11-15",
+        "end_date": "2026-11-17",
+        "total_cost": 6000
+    }
+order: 13000

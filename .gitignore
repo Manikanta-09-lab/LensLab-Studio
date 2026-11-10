@@ -1,0 +1,4 @@
+node_modules/
+lenslab.db
+.DS_Store
+.env

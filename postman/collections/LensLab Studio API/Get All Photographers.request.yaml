@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/photographers
+method: GET
+order: 6000

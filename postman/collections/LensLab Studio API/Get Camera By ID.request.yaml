@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/cameras/3
+method: GET
+order: 2000

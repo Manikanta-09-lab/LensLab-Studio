@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/rentals/2
+method: GET
+order: 12000

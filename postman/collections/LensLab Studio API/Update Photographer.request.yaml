@@ -1,0 +1,13 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/photographers/3
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "name": "Priya Sharma",
+        "phone": "9876500000",
+        "email": "priya@gmail.com"
+    }
+order: 9000

@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/cameras
+method: GET
+body:
+  type: json
+  content: ""
+order: 1000

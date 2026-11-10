@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/photographers/3
+method: DELETE
+order: 10000

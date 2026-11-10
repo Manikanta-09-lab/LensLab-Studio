@@ -1,0 +1,15 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/rentals/4
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "photographer_id": 2,
+        "camera_id": 4,
+        "start_date": "2026-11-15",
+        "end_date": "2026-11-18",
+        "total_cost": 8000
+    }
+order: 14000
